@@ -1,0 +1,191 @@
+disabled_rules:
+  - line_length
+  - trailing_whitespace
+  - no_extension_access_modifier
+  - multiple_closures_with_trailing_closure
+  - trailing_closure
+
+opt_in_rules:
+  - array_init
+  - attributes
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_first_not_nil
+  - empty_count
+  - empty_string
+  - empty_xctest_method
+  - explicit_init
+  - fallthrough
+  - fatal_error_message
+  - first_where
+  - identical_operands
+  - identifier_name
+  - implicitly_unwrapped_optional
+  - joined_default_parameter
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - multiline_arguments
+  - multiline_parameters
+  - operator_usage_whitespace
+  - overridden_super_call
+  - override_in_extension
+  - pattern_matching_keywords
+  - private_action
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - return_arrow_whitespace
+  - single_test_class
+  - sorted_first_last
+  - static_operator
+  - strict_fileprivate
+  - switch_case_on_newline
+  - unavailable_function
+  - unneeded_parentheses_in_closure_argument
+  - untyped_error_in_catch
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+  - weak_delegate
+
+excluded:
+  - Tuist/*
+  - Pods/*
+  - docs/*
+  - dsyms/*
+  - fastlane/*
+  - Derived/*
+  - vendor/*
+  - Project.swift
+  - Workspace.swift
+  - Package.swift
+  - .build/*
+
+trailing_semicolon: error
+
+class_delegate_protocol:
+  severity: error
+
+closure_parameter_position:
+  severity: error
+
+colon:
+  severity: error
+
+comma:
+  severity: error
+
+control_statement:
+  severity: error
+
+discouraged_direct_init:
+  severity: error
+
+empty_enum_arguments:
+  severity: error
+
+empty_parentheses_with_trailing_closure:
+  severity: error
+
+for_where:
+  severity: error
+
+implicit_getter:
+  severity: error
+
+legacy_constructor:
+  severity: error
+
+mark:
+  severity: error
+
+notification_center_detachment:
+  severity: error
+
+opening_brace:
+  severity: error
+  
+private_over_fileprivate:
+  severity: error
+
+redundant_discardable_let:
+  severity: error
+
+redundant_optional_initialization:
+  severity: error
+
+redundant_void_return:
+  severity: error
+
+syntactic_sugar:
+  severity: error
+
+todo:
+  severity: warning
+
+trailing_newline:
+  severity: error
+
+unneeded_break_in_switch:
+  severity: error
+
+unused_closure_parameter:
+  severity: error
+
+unused_optional_binding:
+  severity: error
+
+vertical_parameter_alignment:
+  severity: error
+
+void_return:
+  severity: error
+
+weak_delegate:
+  severity: error
+
+xctfail_message:
+  severity: error
+
+function_parameter_count:
+  warning: 11
+  error: 15
+
+type_name:
+  min_length: 3
+  max_length:
+    warning: 50
+    error: 60
+  
+file_length:
+  error: 600
+  warning: 400
+
+cyclomatic_complexity:
+  error: 10
+
+function_body_length:
+  error: 40
+
+type_body_length:
+  warning: 200
+
+nesting:
+  type_level:
+    warning: 3
+    error: 4
+  function_level:
+    warning: 4
+    error: 6
+
+identifier_name:
+  min_length: 2
+  max_length:
+    warning: 60
+    error: 100
+  excluded:
+    - id
+
+large_tuple:
+  warning: 4
+  error: 5

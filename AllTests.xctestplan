@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "0332548E-0590-4C2D-AC0A-FEA35BF19297",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ModuleBFramework.xcodeproj",
+        "identifier" : "79C911550B3F15536D67869E",
+        "name" : "ModuleBFrameworkTests"
+      }
+    }
+  ],
+  "version" : 1
+}
